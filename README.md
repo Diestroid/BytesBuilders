@@ -38,7 +38,7 @@
 - **GitHub:** https://github.com/ValeriaBarreto
 
 ## Brayan Julián Barrera Hernández
-- **Edad:** 40 años
+- **Edad:** 19 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
 - **Intereses:** Historia, literatura y ajedrez
 - **Descripción:** Actualmente cursando sexto semestre. Me gustan los videojuegos, especialmente de un jugador, o jugar con amigos. Juego volleyball, soy armador. Me encuentro aprendiendo Desarrollo de Videojuegos con Unreal Engine.
