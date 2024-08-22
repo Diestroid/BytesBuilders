@@ -10,6 +10,8 @@
 - **GitHub:** https://github.com/JuanBeleno1
 
 ## Diego Alejandro Arévalo Quintero
+<img src="Fotos/Diego_foto.JPEG"
+alt="mi foto" width="300">
 - **Edad:** 19 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
 - **Intereses:** Tecnología, Sistemas Operativos, Desarrollo Web, AI, música.
