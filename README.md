@@ -20,7 +20,7 @@
 - **X:** https://x.com/unman_random
 
 ## Pablo José Cárdenas Meneses
-![foto](Fotos/WhatsApp Image 2024-08-22 at 10.40.11 AM.jpeg)
+![foto](Fotos/WhatsApp%Image%2024-08-22%at%10.40.11%AM.jpeg)
 - **Edad:** 25 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
 - **Intereses:** Tecnología, videojuegos, música y deportes
