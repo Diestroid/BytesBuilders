@@ -1,0 +1,37 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/1/Mux.hdl
+/** 
+ * Multiplexor:
+ * if (sel = 0) out = a, else out = b
+ */
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    Not(in=sel, out=notSel); 
+    And(a=a, b=notSel, out=outA);
+    And(a=b, b=sel, out=outB);
+    Or(a=outA, b=outB, out=out);
+}
+
+/*
+Sabiendo que la compuerta Mux, teniendo 3 entradas de
+1 bit, dos convencionales (a y b) y una de selección
+(sel), cuando sel tenga el valor 0, el valor de la 
+salida será el mismo que de la entrada a, y en caso 
+contrario el valor de la salida será el mismo de la
+entrada b.
+
+Primero, en la línea 14 negamos el selector para 
+poder obtener en la línea siguiente los casos en que
+la entrada a es 1 y el sel es 0, permitiendo asignar
+dicho valor a una salida outA.
+Se obtienen los casos en que la entrada b y el sel
+tienen el valor de 1 para asignarlos a una salida
+outB.
+Finalmente se unen las salidas outA y outB para
+obtener nuestra salida de la compuerta Mux.
+*/

@@ -1,0 +1,44 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/1/DMux8Way.hdl
+/**
+ * 8-way demultiplexor:
+ * [a, b, c, d, e, f, g, h] = [in, 0,  0,  0,  0,  0,  0,  0] if sel = 000
+ *                            [0, in,  0,  0,  0,  0,  0,  0] if sel = 001
+ *                            [0,  0, in,  0,  0,  0,  0,  0] if sel = 010
+ *                            [0,  0,  0, in,  0,  0,  0,  0] if sel = 011
+ *                            [0,  0,  0,  0, in,  0,  0,  0] if sel = 100
+ *                            [0,  0,  0,  0,  0, in,  0,  0] if sel = 101
+ *                            [0,  0,  0,  0,  0,  0, in,  0] if sel = 110
+ *                            [0,  0,  0,  0,  0,  0,  0, in] if sel = 111
+ */
+CHIP DMux8Way {
+    IN in, sel[3];
+    OUT a, b, c, d, e, f, g, h;
+
+    PARTS:
+    DMux(in=in, sel=sel[0], a=outA, b=outB);
+    DMux(in=outA, sel=sel[1], a=outA2, b=outC);
+    DMux(in=outA2, sel=sel[2], a=a, b=e);
+    DMux(in=outC, sel=sel[2], a=c, b=g);
+    DMux(in=outB, sel=sel[1], a=outB2, b=outD);
+    DMux(in=outB2, sel=sel[2], a=b, b=f);
+    DMux(in=outD, sel=sel[2], a=d, b=h);
+    
+}
+
+/*
+Tenemos una compuerta DMux de 8 salidas de 1 bit,
+por lo tanto debemos utilizar una entrada de 3 bits
+que nos permita asignar un valor a cada salida.
+Dado que la compuerta trabaja con pares debemos
+realizar varias bifurcaciones, inicialmente para el
+valor de sel --0/--1, asignando un valor a salidas 
+temporales para poder pasar al siguiente bit, donde
+tomamos uno de estos valores como entrada para
+analizar los casos, ya sea para el valor de sel
+-00/-10 o -01/-11 y realizamos el mismo proceso,
+de manera que podemos obtener cada salida que 
+corresponda con el valor de sel.
+*/
