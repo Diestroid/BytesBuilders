@@ -44,6 +44,8 @@ alt="mi foto" width="300">
 - **GitHub:** https://github.com/ValeriaBarreto
 
 ## Brayan Julián Barrera Hernández
+<img src="Fotos/brayan-foto.jpg"
+alt="mi foto" width="300">
 - **Edad:** 19 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
 - **Intereses:** Historia, literatura y ajedrez
