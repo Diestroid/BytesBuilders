@@ -31,6 +31,8 @@ alt="mi foto" width="300">
 - **GitHub:** https://github.com/Paburo99
 
 ## Ana Valeria Barreto Tellez
+<img src="Fotos/Foto-Valeria"
+alt="mi foto" width="300">
 - **Edad:** 19 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
 - **Intereses:** Tecnologia, deportes , IoT
