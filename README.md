@@ -22,6 +22,8 @@
 ## Pablo José Cárdenas Meneses
 ![foto](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s)
 ![mi foto](Fotos/foto-pablo)
+<img src="Fotos/foto-pablo"
+alt="mi foto" width="100">
 - **Edad:** 25 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
 - **Intereses:** Tecnología, videojuegos, música y deportes
