@@ -3,7 +3,7 @@
 ## Juan Pablo Beleño Mesa
 - **Edad:** 21 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
-- **Intereses:** Tecnología, deportes y musica
+- **Intereses:** Tecnología, deportes y música
 - **Descripción:** Yo soy Juan, un apasionado de la tecnología, siempre al tanto de las últimas innovaciones y tendencias en el campo del software. En mi tiempo libre, disfruto enormemente del fútbol. 
 ### Contacto
 - **Correo:**  juanbmesa29@gmail.com 
@@ -48,7 +48,7 @@ alt="mi foto" width="300">
 alt="mi foto" width="300">
 - **Edad:** 19 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
-- **Intereses:** Historia, literatura y ajedrez
+- **Intereses:** Videojuegos, volleyball, música, tecnología y los gatos.
 - **Descripción:** Actualmente cursando sexto semestre. Me gustan los videojuegos, especialmente de un jugador, o jugar con amigos. Juego volleyball, soy armador. Me encuentro aprendiendo Desarrollo de Videojuegos con Unreal Engine.
 ### Contacto
 - **Correo:** 1brayanbarrera@gmail.com
