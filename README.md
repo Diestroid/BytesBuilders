@@ -1,6 +1,8 @@
 # BytesBuilders
 
 ## Juan Pablo Beleño Mesa
+<img src="Fotos/Foto-Juan.JPEG"
+alt="mi foto" width="300">
 - **Edad:** 21 años
 - **Profesión:** Estudiante de Ingeniería de Sistemas UIS
 - **Intereses:** Tecnología, deportes y música
