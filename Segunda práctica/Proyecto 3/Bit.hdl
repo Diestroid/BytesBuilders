@@ -1,0 +1,26 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/3/a/Bit.hdl
+/**
+ * 1-bit register:
+ * If load is asserted, the register's value is set to in;
+ * Otherwise, the register maintains its current value:
+ * if (load(t)) out(t+1) = in(t), else out(t+1) = out(t)
+ */
+CHIP Bit {
+    IN in, load;
+    OUT out;
+
+    PARTS:
+    // si load es positivo el multiplexor elige in, 
+    // si no elige el valor anterior
+    // usamos in para definir si queremos un 0 o 1 
+    // y load caundo queramos cambiar a ese bit elegido 
+
+    // en este caso el Mux sirve como if
+    Mux(a= otroout, b= in, sel= load, out= dffout);
+    // el flipflop como memoria
+    DFF(in= dffout, out= out, out = otroout);
+    
+}
