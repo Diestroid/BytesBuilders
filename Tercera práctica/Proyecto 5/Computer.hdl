@@ -1,0 +1,20 @@
+CHIP Computer {
+  IN reset;
+
+  PARTS:
+
+  CPU(inM= loadFromMemory, // de la memoria a la CPU
+  instruction= romOut, // instrucción de la ROM
+  reset= reset,
+  outM= storageMemory, // de la CPU a la memoria
+  writeM= writeMemory, // señal para escribir en memoria
+  addressM= addressMemory, // dirección en memoria
+  pc= pcOut); // contador de programa
+
+  Memory( in= storageMemory, // de la CPU a la memoria
+  load= writeMemory, // señal de carga para almacenar
+  address= addressMemory, // dirección de memoria
+  out= loadFromMemory); // obtenemos el valor de la memoria
+
+  ROM32K(address= pcOut, out= romOut); // obtenemos la instrucción
+}
